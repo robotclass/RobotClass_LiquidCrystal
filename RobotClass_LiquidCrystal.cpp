@@ -106,7 +106,7 @@ uint8_t RobotClass_LiquidCrystal::getCharCyr( uint8_t ch ){
     case 0xE2: rch = 0xB3; break;
     case 0xE3: rch = 0xB4; break;
     case 0xE4: rch = 0xE3; break;
-    case 0xE5: rch = 0xB5; break;
+    case 0xE5: rch = 0x65; break;
     case 0xE6: rch = 0xB6; break;
     case 0xE7: rch = 0xB7; break;
     case 0xE8: rch = 0xB8; break;
