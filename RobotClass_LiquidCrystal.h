@@ -11,7 +11,7 @@
 
 class RobotClass_LiquidCrystal: public LiquidCrystal {
     public:
-        RobotClass_LiquidCrystal(uint8_t rs, uint8_t enable, uint8_t d0, uint8_t d1, uint8_t d2, uint8_t d3, uint8_t cp);
+        RobotClass_LiquidCrystal(uint8_t rs, uint8_t enable, uint8_t d0, uint8_t d1, uint8_t d2, uint8_t d3, uint8_t cp = CP_UTF8);
         size_t print( const String &s );
     private:
         uint8_t codepage;
